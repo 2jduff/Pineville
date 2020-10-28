@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive.min.css" />
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+    <link rel="stylesheet" href="css/customized.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://use.fontawesome.com/59db27d8b6.js"></script>
+    <script src="script/layout.js"></script>
+    <title>Theme</title>
+    <link rel="icon" type="image/png" href="css/images/jd.png">
+</head>
+<!--  template name HEADER  -->
+<header>
+    <div id="top-header">
+        <div id="top-header-container">
+            <div class="top-header-left">
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="tel:+1-888-888-8888">888-888-8888</a> | <a href="/contact-us.inc">Locations</a>
+            </div>
+            <div class="top-header-middle">
+                <div id="scriptedstorehours" class="hide-on-mobile">
+                    <!-- Store hours are inserted via a script, do NOT delete this container. -->
+                </div>
+            </div>
+            <div class="top-header-right">
+                <a href="/about-us.inc">Customer Service</a> | <a href="/delivery.inc">Delivery</a>
+            </div>
+        </div>
+    </div>
+    <div id="header">
+        <div id="header-container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="/"><img src="css/images/logo.png" width="146" height="31" alt="METADATA COMPANY"></a>
+                </div>
+            </div>
+            <div class="header-middle">
+                <div class="header-search">
+                    <div id="search">
+                        <label class="hidden" for="SearchValue">Search</label>
+                        <input id="SearchValue" name="SearchValue" type="text" onkeypress="submitsearch(event);" placeholder="">
+                        <button onclick="goSearch();" type="button"><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-right">
+                <div id="accountnav">
+                    <div id="loggedinas" style="display: none; visibility: hidden"></div>
+                    <ul>
+                        <li><a style="border: 0" href="javascript:void(0)"><i class="fa fa-lock" aria-hidden="true"></i> My Account</a>
+                            <ul>
+                                <li id="login"><a href="/login.aspx" rel="nofollow">Login</a></li>
+                                <li id="viewAccountLink" style="display: none;"><a href="/modifyaccount.aspx" rel="nofollow">View Account</a></li>
+                                <li id="logoutLink" style="display: none;"><a href="/homepage.aspx?logout=true" rel="nofollow">Logout</a></li>
+                                <li id="registerlink"><a href="/createaccount.aspx" rel="nofollow">Register</a></li>
+                                <li><a href="/favorites.aspx" rel="nofollow">Favorites</a></li>
+                            </ul>
+                        </li>
+                        <li><a style="padding-right: 0" href="/viewcart.aspx"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart (<viewcartquantitysummary></viewcartquantitysummary>)</a></li>
+                    </ul>
+                    <div class="clear hide-on-mobile"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="mainnav">
+        <nav id="mainnav-container">
+            <ul>
+                <li><a href="/living-room.inc">Living</a></li>
+                <li><a href="/dining-room.inc">Dining</a></li>
+                <li><a href="/bedroom.inc">Bedroom</a></li>
+                <li><a href="/mattresses/">Mattresses</a></li>
+                <li><a href="/home-office.inc">Office</a></li>
+                <li><a href="/entertainment.inc">Media</a></li>
+                <li><a href="/accessories.inc">Accents</a></li>
+                <li><a href="">Outlet</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="sub-nav-container">
+        <ul>
+            <li><a href="trending-wall/">Trending Items</a></li>
+            <li><a href="/design-center.inc">Design Center</a></li>
+            <li><a href="/room-planner.inc/">Room Planner</a></li>
+            <li><a href="/displayflyer.aspx/">Promotions</a></li>
+        </ul>
+    </div>
+</header>
+<!--  END HEADER  -->
+<!-- template name HOMEPAGE  -->
+<main>
+    <section>
+        <div id="slideshow" class="owl-carousel owl-theme">
+            <div class="item"><a href="/" alt="Living Room"><img src="css/images/living-room-1920x1080.jpg" width="1200" height="400" alt="Living Room" /></a></div>
+            <div class="item"><a href="/" alt="Dining Room"><img src="css/images/dining-room-1920x1080.jpg" width="1200" height="400" alt="Dining Room" /></a></div>
+            <div class="item"><a href="/" alt="Bedroom"><img src="css/images/bedroom-1920x1080.jpg" width="1200" height="400" alt="Bedroom" /></a></div>
+            <div class="item"><a href="/" alt="Home Entertainment"><img src="css/images/entertainment-1920x1080.jpg" width="1200" height="400" alt="Home Entertainment" /></a></div>
+            <div class="item"><a href="/" alt="Office"><img src="css/images/office-1920x1080.jpg" width="1200" height="400" alt="Office" /></a></div>
+            <div class="item"><a href="/" alt="Accessories"><img src="css/images/accessories-1920x1080.jpg" width="1200" height="400" alt="Accessories" /></a></div>
+        </div>
+    </section>
+    <section>
+        <div id="banner-container" class="banner-container-financing">
+            <div class="banner-text">
+                <h2>Enjoy 12 months to pay on purchases using our credit card</h2>
+                <div class="button">
+                    <a href="/clearnace"><span>Click for Details</span></a>
+                </div>
+            </div>
+            <div class="banner-image hide-on-mobile">
+                <a href="/clearance.inc"><img src="css/images/financing.png" width="400" height="400" alt="Financing"></a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid">
+            <div class="container-tile">
+                <img src="css/images/living-room-480x360.jpg" width="480" height="360" alt="" />
+                <div class="container-text">
+                    <h2>Living</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="/living-room.inc"></a>
+                </div>
+            </div>
+            <div class="container-tile">
+                <img src="css/images/dining-room-480x360.jpg" width="480" height="360" alt="" />
+                <div class="container-text">
+                    <h2>Dining</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="/dining-room.inc"></a>
+                </div>
+            </div>
+            <div class="container-tile">
+                <img src="css/images/bedroom-480x360.jpg" width="480" height="360" alt="" />
+                <div class="container-text">
+                    <h2>Bedroom</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="/bedroom.inc"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid">
+            <div class="container-tile">
+                <img src="css/images/entertainment-480x360.jpg" width="480" height="360" alt="" />
+                <div class="container-text">
+                    <h2>Entertainment</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="/entertainment.inc"></a>
+                </div>
+            </div>
+            <div class="container-tile">
+                <img src="css/images/office-480x360.jpg" width="480" height="360" alt="" />
+                <div class="container-text">
+                    <h2>Office</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="home-office.inc"></a>
+                </div>
+            </div>
+            <div class="container-tile">
+                <img src="css/images/accessories-480x360.jpg" width="480" height="360" alt="" />
+                <div class="container-text">
+                    <h2>Acents</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <a href="/accessories.inc"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="banner-container" class="banner-container-design">
+            <div class="banner-text">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+                <div class="button">
+                    <a href="/clearnace"><span>Start Planning</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- END HOMEPAGE  -->
+<!--  template name FOOTER  -->
+<footer>
+    <div id="footer-top-container">
+        <div class="footer-left">
+            <sub>SALES &amp; EXPERT ADVISE</sub><br />
+            <p><a href="tel:888-888-8888">888-888-8888</a></p>
+        </div>
+        <div class="footer-middle">
+            <p><a href="/contact-us.inc">Contact Us</a></p>
+        </div>
+        <div class="footer-right">
+            <ul class="socials">
+                <li><a href="/" title="Instagram" target="_blank"><em class="fa fa-instagram fa-2x"></em></a></li>
+                <li><a href="/" title="Twitter" target="_blank"><em class="fa fa-twitter fa-2x"></em></a></li>
+                <li><a href="/" title="Facebook" target="_blank"><em class="fa fa-facebook fa-2x"></em></a></li>
+                <li><a href="/" title="Pinterest" target="_blank"><em class="fa fa-pinterest-p fa-2x"></em></a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer-container">
+        <div class="footer-left">
+            <div class="logo">
+                <a href="/"><img src="css/images/logo.png" width="146" height="31" alt="METADATA COMPANY"></a>
+                <p>11301 Carmel Commons Blvd.<br>Charlotte, NC 28226</p>
+            </div>
+        </div>
+        <div class="footer-middle" style="align-self: start;">
+            <h2>Shop</h2>
+            <ul>
+                <li><a href="/livng-room.inc">Living</a></li>
+                <li><a href="/dining-room.inc">Dining</a></li>
+                <li><a href="/bedroom.inc">Bedroom</a></li>
+                <li><a href="/mattresses/">Mattresses</a></li>
+                <li><a href="/entertainment.inc">Media</a></li>
+                <li><a href="/home-office.inc">Office</a></li>
+                <li><a href="/accessories.inc">Accents</a></li>
+            </ul>
+        </div>
+        <div class="footer-right" style="align-self: start;">
+            <h2>Store</h2>
+            <ul>
+                <li><a href="/about-us.inc">About Us</a></li>
+                <li><a href="/contact-us.inc">Locations</a></li>
+                <li><a href="/design-center.inc">Design Center</a></li>
+                <li><a href="/room-planner.inc">Room Planner</a></li>
+                <li><a href="/brands.inc">Our Brands</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="copyright">
+        <p>&copy; <script>
+            document.write(new Date().getFullYear())
+            </script> METADATA COMPANY | Powered by OmniVue&reg; - <a href="https://www.microdinc.com?utm_source=customer&amp;utm_medium=referral" target="_blank" rel="nofollow">www.microdinc.com</a> | <a href="/visual-site-map.inc">Site Map</a></p>
+    </div>
+    <div id="scroll-div">
+        <a href="javascript:void(0)" class="scroll-to-top"><i class="fa fa-chevron-circle-up fa-3x"><span class="hidden">Back to Top</span></i></a>
+    </div>
+    </div>
+</footer>
+<!-- END FOOTER  -->
+<script>
+AOS.init();
+
+function storeHours() {
+    var d = new Date();
+    var weekday = new Array(7);
+    weekday[0] = '<p>Sunday 12pm - 5:00pm</p>';
+    weekday[1] = '<p>Monday 10am - 8:00pm</p>';
+    weekday[2] = '<p>Tuesday 10am - 6:00pm</p>';
+    weekday[3] = '<p>Wednesday 10am - 6:00pm</p>';
+    weekday[4] = '<p>Thursday 10am - 8:00pm</p>';
+    weekday[5] = '<p>Friday 10am - 8:00pm</p>';
+    weekday[6] = '<p>Saturday 10am - 8:00pm</p>';
+
+    var n = weekday[d.getDay()];
+    document.getElementById("scriptedstorehours").innerHTML = n;
+}
+
+//Check to see if the window is top if not then display button
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+        $('.scroll-to-top').fadeIn();
+    } else {
+        $('.scroll-to-top').fadeOut();
+    }
+});
+
+//Click event to scroll to top
+$('.scroll-to-top').click(function() {
+    $('html, body').animate({ scrollTop: 0 }, 800);
+    return false;
+});
+
+// change hampurger to x on click
+$(document).ready(function() {
+    $('#nav-icon').click(function() {
+        $(this).toggleClass('open');
+        $('#mainnav').toggle('slow');
+    });
+
+    storeHours();
+
+    $("#slideshow").owlCarousel({
+        loop: true,
+        autoplay: true,
+        items: 2,
+        nav: false,
+        dots: false,
+        center: true,
+        margin: 10
+    });
+});
+</script>
